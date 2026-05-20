@@ -100,7 +100,3 @@ It:
 4. Deploy.
 
 The app uses standard Next.js App Router API routes and does not rely on interactive terminal prompts or persistent local storage, which makes it suitable for Vercel serverless deployment.
-
-## Why Tavily is not needed
-
-Tavily is unnecessary here because the pipeline evaluates replies against the uploaded ticket data and policy file only. No web search or external retrieval step is required to generate, score, route, or report on the support tickets.
