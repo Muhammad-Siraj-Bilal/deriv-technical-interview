@@ -2,6 +2,10 @@
 
 This project is a Vercel-deployable Next.js app that runs a replayable customer-support evaluation pipeline with Groq for generation and review, deterministic policy checks in code, a browser-based human override checkpoint, and downloadable JSON/Markdown artifacts.
 
+Live deployment:
+
+- [deriv-technical-interview-p4fn-klbk4wpv4.vercel.app](https://deriv-technical-interview-p4fn-klbk4wpv4.vercel.app/)
+
 ## What it does
 
 The app keeps the required pipeline stages in order:
