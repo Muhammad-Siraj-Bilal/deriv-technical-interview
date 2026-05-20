@@ -1,0 +1,46 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "customer_tone": "frustrated",
+    "issue_type": "delayed_withdrawal",
+    "customer_message": "I requested a withdrawal yesterday and it still hasn't arrived. This is unacceptable. Where is my money?",
+    "account_context": {
+      "kyc_status": "verified",
+      "withdrawal_status": "pending_review",
+      "hours_since_request": 22
+    }
+  },
+  {
+    "ticket_id": "T-1002",
+    "customer_tone": "neutral",
+    "issue_type": "password_reset",
+    "customer_message": "I can't log in and the password reset link says expired. What should I do?",
+    "account_context": {
+      "kyc_status": "verified",
+      "withdrawal_status": null,
+      "hours_since_request": null
+    }
+  },
+  {
+    "ticket_id": "T-1003",
+    "customer_tone": "anxious",
+    "issue_type": "account_verification",
+    "customer_message": "My documents were uploaded three days ago and my account is still not verified. Can you approve it today?",
+    "account_context": {
+      "kyc_status": "under_review",
+      "withdrawal_status": null,
+      "hours_since_request": null
+    }
+  },
+  {
+    "ticket_id": "T-1004",
+    "customer_tone": "angry",
+    "issue_type": "bonus_dispute",
+    "customer_message": "Your app said I qualified for a promo and now support says I don't. Fix this immediately or I'll post about it everywhere.",
+    "account_context": {
+      "kyc_status": "verified",
+      "withdrawal_status": null,
+      "hours_since_request": null
+    }
+  }
+]

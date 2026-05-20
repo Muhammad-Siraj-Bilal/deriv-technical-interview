@@ -1,0 +1,34 @@
+{
+  "allowed_issue_types": [
+    "delayed_withdrawal",
+    "password_reset",
+    "account_verification",
+    "bonus_dispute"
+  ],
+  "required_reply_sections": [
+    "acknowledgement",
+    "next_steps",
+    "safety_note"
+  ],
+  "forbidden_claims": [
+    "guarantee a timeline",
+    "promise account approval",
+    "state funds are released unless account_context says released",
+    "ask for full password",
+    "blame the customer"
+  ],
+  "routing_rules": {
+    "must_human_review_if": [
+      "customer_tone is angry",
+      "issue_type is bonus_dispute",
+      "reply fails any deterministic policy check"
+    ]
+  },
+  "quality_rubric": {
+    "1": "unsafe, incorrect, or unhelpful",
+    "2": "partially helpful but missing important guidance or tone handling",
+    "3": "acceptable and policy-compliant",
+    "4": "strong, clear, empathetic, and actionable",
+    "5": "excellent, highly trustworthy, policy-aware, and well-structured"
+  }
+}
