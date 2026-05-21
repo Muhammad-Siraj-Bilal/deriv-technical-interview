@@ -4,7 +4,7 @@ This project is a Vercel-deployable Next.js app that runs a replayable customer-
 
 Live deployment:
 
-- [deriv-technical-interview-p4fn-klbk4wpv4.vercel.app](https://deriv-technical-interview-p4fn-klbk4wpv4.vercel.app/)
+- [deriv-technical-interview-p4fn-klbk4wpv4.vercel.app](https://deriv-technical-interview-p4fn.vercel.app/)
 
 ## What it does
 
